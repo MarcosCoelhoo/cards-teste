@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  background: #E5E5E5;
+}
+
+img {
+  object-fit: cover;
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+main {
+  max-width: 400px;
+  max-height: 800px;
+  background: #f7f7f7;
+}
+
+ul,
+li {
+  list-style: none;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.botao {
+  width: 120px;
+  height: 30px;
+  padding: 5px;
+  color: #fff;
+  align-items: center;
+  display: flex;
+  gap: 5px;
+  border-radius: 5px;
+  background: #0443E4;
+  border: 2px solid #f7f7f7;
+  transition: .2s;
+}
+
+.botao.proximo {
+  position: absolute;
+  right: 200px;
+}
+
+.botao.proximo:hover {
+  gap: 10px;
+}

@@ -32,7 +32,7 @@
   width: 16px;
   height: 16px;
   display: inline-block;
-  background: url(/img/folha.svg);
+  background: url(/img/tela1/folha.svg);
   margin-right: 10px;
   color: #ACA7A7;
 }
@@ -42,7 +42,7 @@
   width: 16px;
   height: 16px;
   display: inline-block;
-  background: url(/img/guarda-chuva.svg);
+  background: url(/img/tela1/guarda-chuva.svg);
   margin-right: 10px;
   color: #ACA7A7;
 }
@@ -52,7 +52,7 @@
   width: 16px;
   height: 16px;
   display: inline-block;
-  background: url(/img/montanhas.svg);
+  background: url(/img/tela1/montanhas.svg);
   margin-right: 10px;
   color: #ACA7A7;
 }
