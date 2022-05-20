@@ -1,0 +1,54 @@
+footer {
+  background: #222;
+  padding: 10px 40px 30px 40px;
+}
+
+footer h2 {
+  color: #fff;
+  font-size: 1.25rem;
+}
+
+footer a {
+  color: #ccc;
+  font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  margin-top: 30px;
+}
+
+nav .links1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 45px;
+  position: relative;
+}
+
+nav .links2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 45px;
+  margin-top: 25px;
+  position: relative;
+}
+
+nav a::before {
+  content: "";
+  width: 2px;
+  height: 8px;
+  display: inline-block;
+  background: #404040;
+  margin-right: 3px;
+}
+
+nav .links1::after,
+nav .links2::after {
+  content: "";
+  height: 1px;
+  width: 100%;
+  background: #2e2e2e;
+  position: absolute;
+  top: 25px;
+}
