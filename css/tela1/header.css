@@ -1,27 +1,5 @@
-body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Roboto";
-}
-
-img {
-  object-fit: cover;
-}
-
-h1,
-p {
-  margin: 0;
-}
-
-main {
-  max-width: 400px;
-  max-height: 800px;
-  background: #F7F7F7;
-}
-
 header {
-  background: url(img/floresta1.jpg) center;
+  background: url(/img/floresta1.jpg) center;
   width: 400px;
   height: 410px;
   display: grid;

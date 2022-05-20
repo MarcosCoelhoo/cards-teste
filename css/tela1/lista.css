@@ -1,0 +1,57 @@
+.lista-lugares li {
+  width: 140px;
+  height: 190px;
+  border-radius: 5px;
+  background: #fff;
+}
+
+.lista-lugares li img {
+  border-radius: 5px 5px 0 0;
+}
+
+.lista-lugares {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  padding: 20px;;
+}
+
+.lista-lugares li h2 {
+  margin-left: 10px;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.lista-lugares li:nth-child(1) h2::after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(/img/folha.svg);
+  margin-right: 10px;
+  color: #ACA7A7;
+}
+
+.lista-lugares li:nth-child(2) h2::after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(/img/guarda-chuva.svg);
+  margin-right: 10px;
+  color: #ACA7A7;
+}
+
+.lista-lugares li:nth-child(3) h2::after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(/img/montanhas.svg);
+  margin-right: 10px;
+  color: #ACA7A7;
+}
