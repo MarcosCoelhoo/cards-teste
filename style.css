@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+
+img {
+  object-fit: cover;
+}
+
+h1,
+p {
+  margin: 0;
+}
+
+main {
+  max-width: 400px;
+  max-height: 800px;
+  background: #F7F7F7;
+}
+
+header {
+  background: url(img/floresta1.jpg) center;
+  width: 400px;
+  height: 410px;
+  display: grid;
+  justify-content: center;
+  box-shadow: 0 
+}
+
+header .input-box {
+  width: 320px;
+  height: 50px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  background: #fff;
+  border-radius: 4px;
+  align-items: center;
+  margin-top: 40px;
+}
+
+header input[type="text"] {
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  margin-left: 15px;
+}
+
+header .input-box img {
+  margin-right: 15px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #fff;
+  margin-top: 190px;
+}
