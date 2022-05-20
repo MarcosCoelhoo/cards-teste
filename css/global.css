@@ -12,6 +12,8 @@ body {
 
 img {
   object-fit: cover;
+  margin: 0;
+  padding: 0;
 }
 
 h1,
@@ -30,6 +32,7 @@ ul,
 li {
   list-style: none;
   margin: 0;
+  padding: 0;
 }
 
 a {
@@ -41,9 +44,9 @@ a {
   height: 30px;
   padding: 5px;
   color: #fff;
-  align-items: center;
+  font-size: 1rem;
   display: flex;
-  gap: 5px;
+  align-items: center;
   border-radius: 5px;
   background: #0443E4;
   border: 2px solid #f7f7f7;
@@ -55,6 +58,12 @@ a {
   right: 200px;
 }
 
-.botao.proximo:hover {
-  gap: 10px;
+.botao.anterior {
+  position: absolute;
+  left: 200px;
+  text-align: right;
+}
+
+.botao.anterior img {
+
 }
