@@ -1,0 +1,20 @@
+.titulo {
+  margin: 25px 20px 25px 25px;
+}
+
+.titulo h1 {
+  text-align: left;
+  font-size: 1.5rem;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  position: relative;
+}
+
+.titulo h1::after {
+  content: "";
+  width: 27px;
+  height: 27px;
+  background: url(/img/icones/menu-burger.svg);
+  display: inline-block;
+  cursor: pointer;
+}
