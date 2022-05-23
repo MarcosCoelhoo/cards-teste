@@ -23,13 +23,14 @@ p {
 }
 
 main {
-  max-width: 400px;
-  max-height: 800px;
+  width: 400px;
+  height: 800px;
   background: #f7f7f7;
 }
 
 ul,
-li {
+li,
+input {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -40,9 +41,7 @@ a {
 }
 
 .botao {
-  width: 120px;
-  height: 30px;
-  padding: 5px;
+  padding: 10px 16px;
   color: #fff;
   font-size: 1rem;
   display: flex;
@@ -58,12 +57,34 @@ a {
   right: 200px;
 }
 
+.botao.proximo::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  margin-left: 4px;
+  background: url(/img/icones/seta-direita.svg);
+  transition: transform .2s;
+}
+
+.botao.proximo:hover::after {
+  transform: translateX(4px);
+}
+
 .botao.anterior {
   position: absolute;
   left: 200px;
-  text-align: right;
 }
 
-.botao.anterior img {
+.botao.anterior::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  margin-right: 4px;
+  background: url(/img/icones/seta-esquerda.svg);
+  transition: transform .2s;
+}
 
+.botao.anterior:hover::before {
+  transform: translateX(-4px);
 }
