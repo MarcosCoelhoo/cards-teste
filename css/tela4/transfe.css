@@ -1,0 +1,86 @@
+.transf {
+  margin-right: 25px;
+  margin-left: 25px;
+}
+
+.transf h3 {
+  margin-left: 20px;
+  font-size: 0.8rem;
+  color: #a6a6a6;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.transf-container {
+  background: #fff;
+  border-radius: 5px;
+  padding: 15px 20px;
+}
+
+.transf-item {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.transf-item:nth-child(n + 2):after {
+  content: "";
+  width: 315px;
+  height: 1px;
+  background: #F2F2F2;
+  position: absolute;
+  top: -15px;
+}
+
+.local,
+.hora {
+  font-size: 0.75rem;
+  color: #a6a6a6;
+}
+
+.local {
+  margin-left: 20px;
+  text-transform: uppercase;
+}
+
+.hora {
+  text-align: right;
+}
+
+.preco,
+.data {
+  font-size: 1.25rem;
+}
+
+.preco {
+  position: relative;
+}
+
+.transf-item:nth-child(1) .preco::before,
+.transf-item:nth-child(2) .preco::before,
+.transf-item:nth-child(4) .preco::before
+{
+  content: "";
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
+  display: inline-block;
+  background: url(/img/tela4/menos.svg);
+}
+
+.transf-item:nth-child(3) .preco::before,
+.transf-item:nth-child(5) .preco::before,
+.transf-item:nth-child(6) .preco::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
+  display: inline-block;
+  background: url(/img/tela4/mais.svg);
+}
+
+.data {
+  color: #a6a6a6;
+}
